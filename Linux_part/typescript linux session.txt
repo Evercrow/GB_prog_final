@@ -1,0 +1,827 @@
+Script started on 2023-09-27 14:32:37+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+[?2004h]0;root@ubuntu-vm: /home/everroot@ubuntu-vm:/home/ever# l[Kcd homeworks/
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# cat > pets.txt
+[?2004ldogs
+cats
+hamsters
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# more pets.txt
+[?2004ldogs
+cats
+hamsters
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# cat > burden.txt[C[C[C[C
+[?2004lhorses
+donkeys
+camels
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# more burden.txt
+[?2004lhorses
+donkeys
+camels
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# [K]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# [K]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# cat petx[Ks.txt bure[Kden.txt > joined.txt
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# more joined.txt 
+[?2004ldogs
+cats
+hamsters
+horses
+donkeys
+camels
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# mv joined [K.txt human)[K_fire[K[K[K[K[K[K[K[K[K[Khuman_[K[K[K[K[K[Kfir[K[Kriends_to_human.txt
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# ,ore[K[K[K[Kls -[K[K[K[Kmore friends_to_human.txt 
+[?2004ldogs
+cats
+hamsters
+horses
+donkeys
+camels
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# mkdir animal_shelter
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# mv friends_to_human.txt ./animal_shelter/
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworksroot@ubuntu-vm:/home/ever/homeworks# cd animal_shelter/
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# ls
+[?2004lfriends_to_human.txt
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mhttps://dev.mysql[27m[7m.[27m[7mcom[27m[K[A]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mhttps://dev.mysql.com[27m[K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mhttps://dev.mysql.com[27mhttps://dev.mysql.com[7mhttps://dev.mysql.com/downloads/file/?id=520541[27m[1Phttps://dev.mysql.com/downloads/file/?id=52054[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mhttps://dev.mysql.com/downloads/file/?id=520541[27mhttps://dev.mysql.com/downloads/file/?id=520541
+[?2004l--2023-09-27 14:57:01--  https://dev.mysql.com/downloads/file/?id=520541
+Resolving dev.mysql.com (dev.mysql.com)... 23.52.29.249, 2001:2030:21:19e::2e31, 2001:2030:21:1a9::2e31
+Connecting to dev.mysql.com (dev.mysql.com)|23.52.29.249|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21691 (21K) [text/html]
+Saving to: ‘index.html?id=520541’
+
+index.html?id=520541                                 0%[                                                                                                                ]       0  --.-KB/s               index.html?id=520541                               100%[===============================================================================================================>]  21,18K  --.-KB/s    in 0s      
+
+2023-09-27 14:57:01 (332 MB/s) - ‘index.html?id=520541’ saved [21691/21691]
+
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# rm index.html\?id\=520541 
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# ls
+[?2004lfriends_to_human.txt
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mhttps://dev.mysql.com/get/Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://dev.mysql.com/get/Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb
+[?2004l--2023-09-27 14:57:44--  https://dev.mysql.com/get/Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb
+Resolving dev.mysql.com (dev.mysql.com)... 23.52.29.249, 2001:2030:21:19e::2e31, 2001:2030:21:1a9::2e31
+Connecting to dev.mysql.com (dev.mysql.com)|23.52.29.249|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://cdn.mysql.com//Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb [following]
+--2023-09-27 14:57:44--  https://cdn.mysql.com//Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb
+Resolving cdn.mysql.com (cdn.mysql.com)... 23.210.173.94, 2001:2030:21:18a::1d68, 2001:2030:21:19d::1d68
+Connecting to cdn.mysql.com (cdn.mysql.com)|23.210.173.94|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24839262 (24M) [application/x-debian-package]
+Saving to: ‘mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb’
+
+                         mysql-community-server-co   0%[                                                                                                                ]       0  --.-KB/s                                       mysql-community-server-cor   5%[=====>                                                                                                          ]   1,28M  5,90MB/s                                      mysql-community-server-core  14%[===============>                                                                                                ]   3,42M  7,98MB/s                                     mysql-community-server-core_  25%[===========================>                                                                                    ]   5,95M  9,44MB/s                                    mysql-community-server-core_8  34%[=====================================>                                                                          ]   8,18M  9,86MB/s                                   mysql-community-server-core_8.  43%[================================================>                                                               ]  10,42M  10,1MB/s                                  mysql-community-server-core_8.1  53%[==========================================================>                                                     ]  12,66M  10,3MB/s                                 mysql-community-server-core_8.1.  62%[=====================================================================>                                          ]  14,89M  10,4MB/s                                mysql-community-server-core_8.1.0  72%[===============================================================================>                                ]  17,13M  10,5MB/s                               mysql-community-server-core_8.1.0-  81%[=========================================================================================>                      ]  19,24M  10,4MB/s                              mysql-community-server-core_8.1.0-1  91%[=====================================================================================================>          ]  21,73M  10,6MB/s                             mysql-community-server-core_8.1.0-1u 100%[===============================================================================================================>]  23,69M  10,4MB/s               mysql-community-server-core_8.1.0-1ubuntu22.04_amd 100%[===============================================================================================================>]  23,69M  10,4MB/s    in 2,3s    
+
+2023-09-27 14:57:47 (10,4 MB/s) - ‘mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb’ saved [24839262/24839262]
+
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# rm mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb 
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mУстанавливаем подходящую версию MySQl c официального сайта.[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PУстанавливаем подходящую версию MySQl c официального сайта[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt [7mhttps://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+[?2004l--2023-09-27 15:06:39--  https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+Resolving dev.mysql.com (dev.mysql.com)... 23.52.29.249, 2001:2030:21:1a9::2e31, 2001:2030:21:19e::2e31
+Connecting to dev.mysql.com (dev.mysql.com)|23.52.29.249|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://repo.mysql.com//mysql-apt-config_0.8.26-1_all.deb [following]
+--2023-09-27 15:06:39--  https://repo.mysql.com//mysql-apt-config_0.8.26-1_all.deb
+Resolving repo.mysql.com (repo.mysql.com)... 184.30.29.13, 2a02:26f0:9500:b83::1d68, 2a02:26f0:9500:b8a::1d68
+Connecting to repo.mysql.com (repo.mysql.com)|184.30.29.13|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18088 (18K) [application/x-debian-package]
+Saving to: ‘mysql-apt-config_0.8.26-1_all.deb’
+
+mysql-apt-config_0.8.26-1_all.deb                    0%[                                                                                                                ]       0  --.-KB/s               mysql-apt-config_0.8.26-1_all.deb                  100%[===============================================================================================================>]  17,66K  --.-KB/s    in 0s      
+
+2023-09-27 15:06:39 (208 MB/s) - ‘mysql-apt-config_0.8.26-1_all.deb’ saved [18088/18088]
+
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+[?2004lSelecting previously unselected package mysql-apt-config.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 264459 files and directories currently installed.)
+Preparing to unpack mysql-apt-config_0.8.26-1_all.deb ...
+Unpacking mysql-apt-config (0.8.26-1) ...
+Setting up mysql-apt-config (0.8.26-1) ...
+[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[17;6H[30m[47m┌───────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├───────────────────────────────────────────────────────────────────────────────┐[18;6H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate product to choose the version that you wish to receive.                        │[97m[40m [19;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [20;6H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run 'apt-get update' to load package list. Advanced users can always change the   │[97m[40m [21;6H[30m[47m│ configurations later, depending on their own needs.                                                                                                                                          │[97m[40m [22;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [23;6H[30m[47m│ Which MySQL product do you wish to configure?                                                                                                                                                │[97m[40m [24;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [25;6H[30m[47m│                                                                   [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                                                                    │[97m[40m [26;6H[30m[47m│                                                                   MySQL Tools & Connectors (Currently selected: Enabled)                                                                     │[97m[40m [27;6H[30m[47m│                                                                   MySQL Preview Packages (Currently selected: Disabled)                                                                      │[97m[40m [28;6H[30m[47m│                                                                   Ok                                                                                                                         │[97m[40m [29;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [30;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [31;6H[30m[47m│                                                                                            <Ok>                                                                                              │[97m[40m [32;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [33;6H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [34;7H                                                                                                                                                                                                [25;74H[30m[47mMySQL Server & Cluster (Currently selected: mysql-8.0) [26;74H[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [26;74H[?12l[?25h[50;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[20;38H[30m[47m┌───────────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├───────────────────────────────────────────────┐[21;38H│ This is a collection of tools for the MySQL suite, including connectors, MySQL Workbench, MySQL Utilities and MySQL router.  │[97m[40m [22;38H[30m[47m│                                                                                                                              │[97m[40m [23;38H[30m[47m│ Enable or disable MySQL tools and utilities                                                                                  │[97m[40m [24;38H[30m[47m│                                                                                                                              │[97m[40m [25;38H[30m[47m│                                                          [37m[41mEnabled  [30m[47m                                                           │[97m[40m [26;38H[30m[47m│                                                          Disabled                                                            │[97m[40m [27;38H[30m[47m│                                                                                                                              │[97m[40m [28;38H[30m[47m│                                                                                                                              │[97m[40m [29;38H[30m[47m│                                                            <Ok>                                                              │[97m[40m [30;38H[30m[47m│                                                                                                                              │[97m[40m [31;38H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [32;39H                                                                                                                                [25;97H[30m[47mEnabled  [26;97H[37m[41mDisabled [26;97H[AEnabled  [26;97H[30m[47mDisabled [25;97H[?12l[?25h[50;1H[37m[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[17;6H[30m[47m┌───────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├───────────────────────────────────────────────────────────────────────────────┐[18;6H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate product to choose the version that you wish to receive.                        │[97m[40m [19;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [20;6H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run 'apt-get update' to load package list. Advanced users can always change the   │[97m[40m [21;6H[30m[47m│ configurations later, depending on their own needs.                                                                                                                                          │[97m[40m [22;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [23;6H[30m[47m│ Which MySQL product do you wish to configure?                                                                                                                                                │[97m[40m [24;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [25;6H[30m[47m│                                                                   [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                                                                    │[97m[40m [26;6H[30m[47m│                                                                   MySQL Tools & Connectors (Currently selected: Enabled)                                                                     │[97m[40m [27;6H[30m[47m│                                                                   MySQL Preview Packages (Currently selected: Disabled)                                                                      │[97m[40m [28;6H[30m[47m│                                                                   Ok                                                                                                                         │[97m[40m [29;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [30;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [31;6H[30m[47m│                                                                                            <Ok>                                                                                              │[97m[40m [32;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [33;6H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [34;7H                                                                                                                                                                                                [25;74H[?12l[?25h[50;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[18;4H[30m[47m┌─────────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├──────────────────────────────────────────────────────────────────────────────────┐[19;4H│ This configuration program has determined that MySQL Server 8.0 is configured on your system, and has highlighted the most appropriate repository package. If you are not sure which version to   │[97m[40m [20;4H[30m[47m│ install, do not change the auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster also contains MySQL Server.                               │[97m[40m [21;4H[30m[47m│                                                                                                                                                                                                   │[97m[40m [22;4H[30m[47m│ Which server version do you wish to receive?                                                                                                                                                      │[97m[40m [23;4H[30m[47m│                                                                                                                                                                                                   │[97m[40m [24;4H[30m[47m│                                                                                     [37m[41mmysql-8.0                [30m[47m                                                                                     │[97m[40m [25;4H[30m[47m│                                                                                     mysql-innovation                                                                                              │[97m[40m [26;4H[30m[47m│                                                                                     mysql-cluster-8.0                                                                                             │[97m[40m [27;4H[30m[47m│                                                                                     mysql-cluster-innovation                                                                                      │[97m[40m [28;4H[30m[47m│                                                                                     None                                                                                                          │[97m[40m [29;4H[30m[47m│                                                                                                                                                                                                   │[97m[40m [30;4H[30m[47m│                                                                                                                                                                                                   │[97m[40m [31;4H[30m[47m│                                                                                              <Ok>                                                                                                 │[97m[40m [32;4H[30m[47m│                                                                                                                                                                                                   │[97m[40m [33;4H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [34;5H                                                                                                                                                                                                     [24;90H[30m[47mmysql-8.0                [25;90H[37m[41mmysql-innovation         [25;90H[Amysql-8.0                [25;90H[30m[47mmysql-innovation         [24;90H[?12l[?25h[50;1H[37m[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[17;6H[30m[47m┌───────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├───────────────────────────────────────────────────────────────────────────────┐[18;6H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate product to choose the version that you wish to receive.                        │[97m[40m [19;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [20;6H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run 'apt-get update' to load package list. Advanced users can always change the   │[97m[40m [21;6H[30m[47m│ configurations later, depending on their own needs.                                                                                                                                          │[97m[40m [22;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [23;6H[30m[47m│ Which MySQL product do you wish to configure?                                                                                                                                                │[97m[40m [24;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [25;6H[30m[47m│                                                                   [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                                                                    │[97m[40m [26;6H[30m[47m│                                                                   MySQL Tools & Connectors (Currently selected: Enabled)                                                                     │[97m[40m [27;6H[30m[47m│                                                                   MySQL Preview Packages (Currently selected: Disabled)                                                                      │[97m[40m [28;6H[30m[47m│                                                                   Ok                                                                                                                         │[97m[40m [29;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [30;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [31;6H[30m[47m│                                                                                            <Ok>                                                                                              │[97m[40m [32;6H[30m[47m│                                                                                                                                                                                              │[97m[40m [33;6H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [34;7H                                                                                                                                                                                                [25;74H[30m[47mMySQL Server & Cluster (Currently selected: mysql-8.0) [26;74H[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [26;74H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [27;74H[37m[41mMySQL Preview Packages (Currently selected: Disabled)  [27;74H[30m[47mMySQL Preview Packages (Currently selected: Disabled)  [28;74H[37m[41mOk                                                     [28;74H[?12l[?25h[50;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Connecting to security.ubuntu.com (91.189.91.83)] [Waiting for headers][0m                                                                           Get:2 http://repo.mysql.com/apt/ubuntu jammy InRelease [20,3 kB]
+[33m0% [Connecting to security.ubuntu.com (91.189.91.83)] [2 InRelease 6 937 B/20,3 kB 34%][0m[33m                                                                                         0% [Connecting to security.ubuntu.com (91.189.91.83)][0m[33m                                                     0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [3 InRelease 5 449 B/110 kB 5%] [Waiting for headers][0m                                                          Get:4 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 Sources [963 B]
+[33m0% [3 InRelease 14,1 kB/110 kB 13%] [4 Sources 963 B/963 B 100%][0m[33m                                                                0% [3 InRelease 14,1 kB/110 kB 13%][0m[33m0% [4 Sources store 0 B] [3 InRelease 14,1 kB/110 kB 13%] [Waiting for headers][0m[33m                                                                               0% [3 InRelease 14,1 kB/110 kB 13%] [Waiting for headers][0m                                                         Get:5 http://repo.mysql.com/apt/ubuntu jammy/mysql-apt-config i386 Packages [565 B]
+[33m0% [3 InRelease 42,9 kB/110 kB 39%] [5 Packages 565 B/565 B 100%][0m[33m                                                                 0% [3 InRelease 42,9 kB/110 kB 39%] [Waiting for headers][0m[33m0% [5 Packages store 0 B] [3 InRelease 42,9 kB/110 kB 39%] [Waiting for headers][0m[33m                                                                                0% [3 InRelease 42,9 kB/110 kB 39%] [Waiting for headers][0m                                                         Get:6 http://repo.mysql.com/apt/ubuntu jammy/mysql-apt-config amd64 Packages [565 B]
+[33m0% [3 InRelease 77,4 kB/110 kB 70%] [6 Packages 565 B/565 B 100%][0m[33m                                                                 0% [3 InRelease 77,4 kB/110 kB 70%] [Waiting for headers][0m[33m0% [6 Packages store 0 B] [3 InRelease 77,4 kB/110 kB 70%] [Waiting for headers][0m[33m                                                                                0% [3 InRelease 77,4 kB/110 kB 70%] [Waiting for headers][0m[33m                                                         0% [Waiting for headers][0m                        Get:7 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 Packages [12,7 kB]
+[33m0% [7 Packages 2 589 B/12,7 kB 20%][0m[33m                                     0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m29% [Waiting for headers][0m                         Get:8 http://repo.mysql.com/apt/ubuntu jammy/mysql-tools i386 Packages [457 B]
+[33m29% [Waiting for headers] [8 Packages 457 B/457 B 100%][0m[33m                                                       29% [Waiting for headers] [Waiting for headers][0m[33m29% [8 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                      29% [Waiting for headers] [Waiting for headers][0m                                               Get:9 http://repo.mysql.com/apt/ubuntu jammy/mysql-tools amd64 Packages [8 011 B]
+[33m29% [Waiting for headers] [9 Packages 4 050 B/8 011 B 51%][0m[33m                                                              30% [Waiting for headers][0m[33m30% [9 Packages store 0 B] [Waiting for headers][0m[33m                                                30% [Waiting for headers][0m                         Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [43,0 kB]
+[33m30% [10 Components-amd64 2 673 B/43,0 kB 6%][0m[33m                                              33% [Working][0m[33m33% [10 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         33% [Waiting for headers][0m                         Get:11 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [785 kB]
+[33m33% [11 Packages 1 231 B/785 kB 0%][0m[33m                                     86% [Waiting for headers][0m                         Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [144 kB]
+[33m86% [12 Translation-en 2 334 B/144 kB 2%][0m[33m86% [11 Packages store 0 B] [12 Translation-en 2 334 B/144 kB 2%][0m[33m                                                                   96% [11 Packages store 0 B] [Waiting for headers][0m                                                 Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [40,0 kB]
+[33m96% [11 Packages store 0 B] [13 Components-amd64 2 933 B/40,0 kB 7%][0m[33m                                                                      98% [11 Packages store 0 B] [Waiting for headers][0m                                                 Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [16,7 kB]
+[33m98% [11 Packages store 0 B] [14 Commands-amd64 2 688 B/16,7 kB 16%][0m[33m                                                                     99% [11 Packages store 0 B][0m[33m                           100% [Working][0m[33m100% [12 Translation-en store 0 B][0m[33m                                  100% [Working][0m[33m100% [13 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [14 Commands-amd64 store 0 B][0m[33m                                  100% [Working][0m              Fetched 1 182 kB in 2s (692 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 45%Reading package lists... 45%Reading package lists... 65%Reading package lists... 65%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+2 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [7mapt-cache policy mysql-server[27mapt-cache policy mysql-server
+[?2004lmysql-server:
+  Installed: 8.0.34-0ubuntu0.22.04.1
+  Candidate: 8.0.34-1ubuntu22.04
+  Version table:
+     8.0.34-1ubuntu22.04 500
+        500 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 Packages
+ *** 8.0.34-0ubuntu0.22.04.1 500
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages
+        100 /var/lib/dpkg/status
+     8.0.28-0ubuntu4 500
+        500 http://ru.archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        500 http://ru.archive.ubuntu.com/ubuntu jammy/main i386 Packages
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [7msystemctl status mysql[27msystemctl status mysql
+[?2004l[?1h=[0;1;32m●[0m mysql.service - MySQL Community Server[m
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;32mactive (running)[0m since Wed 2023-09-27 11:26:38 MSK; 3h 44min ago[m
+   Main PID: 1368 (mysqld)[m
+     Status: "Server is operational"[m
+      Tasks: 37 (limit: 3967)[m
+     Memory: 300.8M[m
+        CPU: 45.506s[m
+     CGroup: /system.slice/mysql.service[m
+             └─1368 /usr/sbin/mysqld[m
+[m
+сен 27 11:26:35 ubuntu-vm systemd[1]: Starting MySQL Community Server...[m
+сен 27 11:26:38 ubuntu-vm systemd[1]: Started MySQL Community Server.[m
+[K[?1l>[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# systemctl status mysql stop[C[K[K[K[K[C[1P[1P[1P[1P[1@o[1@p
+[?2004l[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# systemctl stop mysql atus mysql
+[?2004l[?1h=○ mysql.service - MySQL Community Server[m
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)[m
+     Active: inactive (dead) since Wed 2023-09-27 15:16:41 MSK; 2s ago[m
+    Process: 1368 ExecStart=/usr/sbin/mysqld (code=exited, status=0/SUCCESS)[m
+   Main PID: 1368 (code=exited, status=0/SUCCESS)[m
+     Status: "Server shutdown complete"[m
+        CPU: 47.316s[m
+[m
+сен 27 11:26:35 ubuntu-vm systemd[1]: Starting MySQL Community Server...[m
+сен 27 11:26:38 ubuntu-vm systemd[1]: Started MySQL Community Server.[m
+сен 27 15:16:40 ubuntu-vm systemd[1]: Stopping MySQL Community Server...[m
+сен 27 15:16:41 ubuntu-vm systemd[1]: mysql.service: Deactivated successfully.[m
+сен 27 15:16:41 ubuntu-vm systemd[1]: Stopped MySQL Community Server.[m
+сен 27 15:16:41 ubuntu-vm systemd[1]: mysql.service: Consumed 47.316s CPU time.[m
+[K[?1l>[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# ls /etc/a[Kapt/preferences.d/m[K
+[?2004l99nginx
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# ls /etc/apt/preferences.d/[K[K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apt rem[K[K[Kpurge mysql-apt-config_0.8.26-1_all.deb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksw[Kerver -s
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-image-5.19.0-35-generic linux-modules-5.19.0-35-generic linux-modules-extra-5.19.0-35-generic
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  mysql-server*
+0 upgraded, 0 newly installed, 1 to remove and 1 not upgraded.
+Purg mysql-server [8.0.34-0ubuntu0.22.04.1]
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apt purge mysql-server -s[C[C[1@ [1@-[1@-[1@a[1@u[1@t[1@o[1@r[1@e[1@m[1@o[1@v[1@e
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages will be REMOVED:
+  linux-image-5.19.0-35-generic* linux-modules-5.19.0-35-generic* linux-modules-extra-5.19.0-35-generic* mysql-server*
+0 upgraded, 0 newly installed, 4 to remove and 1 not upgraded.
+Purg linux-image-5.19.0-35-generic [5.19.0-35.36~22.04.1]
+Purg linux-modules-extra-5.19.0-35-generic [5.19.0-35.36~22.04.1]
+Purg linux-modules-5.19.0-35-generic [5.19.0-35.36~22.04.1]
+Purg mysql-server [8.0.34-0ubuntu0.22.04.1]
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apt purge --autoremove mysql-server -s[K[K[K
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages will be REMOVED:
+  linux-image-5.19.0-35-generic* linux-modules-5.19.0-35-generic* linux-modules-extra-5.19.0-35-generic* mysql-server*
+0 upgraded, 0 newly installed, 4 to remove and 1 not upgraded.
+After this operation, 631 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;49r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 264464 files and directories currently installed.)
+Removing linux-image-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+7[50;0f[42m[30mProgress: [  0%][49m[39m [.....................................................................................................................................................................................] 87[50;0f[42m[30mProgress: [  6%][49m[39m [##########...........................................................................................................................................................................] 87[50;0f[42m[30mProgress: [ 12%][49m[39m [#####################................................................................................................................................................................] 8/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.19.0-35-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.2.0-33-generic
+Found initrd image: /boot/initrd.img-6.2.0-33-generic
+Found linux image: /boot/vmlinuz-6.2.0-32-generic
+Found initrd image: /boot/initrd.img-6.2.0-32-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+7[50;0f[42m[30mProgress: [ 18%][49m[39m [###############################......................................................................................................................................................] 8Removing linux-modules-extra-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+7[50;0f[42m[30mProgress: [ 24%][49m[39m [##########################################...........................................................................................................................................] 87[50;0f[42m[30mProgress: [ 29%][49m[39m [#####################################################................................................................................................................................] 87[50;0f[42m[30mProgress: [ 35%][49m[39m [###############################################################......................................................................................................................] 8Removing linux-modules-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+7[50;0f[42m[30mProgress: [ 41%][49m[39m [##########################################################################...........................................................................................................] 87[50;0f[42m[30mProgress: [ 47%][49m[39m [#####################################################################################................................................................................................] 87[50;0f[42m[30mProgress: [ 53%][49m[39m [###############################################################################################......................................................................................] 8Removing mysql-server (8.0.34-0ubuntu0.22.04.1) ...
+7[50;0f[42m[30mProgress: [ 59%][49m[39m [##########################################################################################################...........................................................................] 87[50;0f[42m[30mProgress: [ 65%][49m[39m [#####################################################################################################################................................................................] 87[50;0f[42m[30mProgress: [ 71%][49m[39m [###############################################################################################################################......................................................] 87[50;0f[42m[30mProgress: [ 76%][49m[39m [##########################################################################################################################################...........................................] 8(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 257061 files and directories currently installed.)
+Purging configuration files for linux-image-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+rmdir: failed to remove '/lib/modules/5.19.0-35-generic': Directory not empty
+7[50;0f[42m[30mProgress: [ 82%][49m[39m [#####################################################################################################################################################................................] 8Purging configuration files for linux-modules-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+[1mdpkg:[0m [1;33mwarning:[0m while removing linux-modules-5.19.0-35-generic, directory '/lib/modules/5.19.0-35-generic/initrd' not empty so not removed
+7[50;0f[42m[30mProgress: [ 88%][49m[39m [###############################################################################################################################################################......................] 8Purging configuration files for linux-modules-extra-5.19.0-35-generic (5.19.0-35.36~22.04.1) ...
+7[50;0f[42m[30mProgress: [ 94%][49m[39m [##########################################################################################################################################################################...........] 8
+7[0;50r8[1A[J[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Connecting to security.ubuntu.com (185.125.190.36)] [Connecting to repo.mysql.com][0m                                                                                      Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+[33m                                                                                      0% [Connecting to repo.mysql.com (184.30.29.13)][0m                                                Hit:3 http://repo.mysql.com/apt/ubuntu jammy InRelease
+[33m                                                0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 45%Reading package lists... 45%Reading package lists... 65%Reading package lists... 65%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apt-cah[Kche policy mysql-apt-config_0.8.26-1_all.deb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kserver
+[?2004lmysql-server:
+  Installed: (none)
+  Candidate: 8.0.34-1ubuntu22.04
+  Version table:
+     8.0.34-1ubuntu22.04 500
+        500 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 Packages
+     8.0.34-0ubuntu0.22.04.1 500
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages
+     8.0.28-0ubuntu4 500
+        500 http://ru.archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        500 http://ru.archive.ubuntu.com/ubuntu jammy/main i386 Packages
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apr install mysql-server
+[?2004lCommand 'apr' not found, but there are 16 similar ones.
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# apr install mysql-server[C[1P[1@t
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-bin libfcgi-perl libfcgi0ldbl libhtml-template-perl libprotobuf-lite23
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  mysql-client mysql-common mysql-community-client mysql-community-client-core mysql-community-client-plugins mysql-community-server mysql-community-server-core
+The following packages will be REMOVED:
+  mysql-client-8.0 mysql-client-core-8.0 mysql-server-8.0 mysql-server-core-8.0
+The following NEW packages will be installed:
+  mysql-client mysql-community-client mysql-community-client-core mysql-community-client-plugins mysql-community-server mysql-community-server-core mysql-server
+The following packages will be upgraded:
+  mysql-common
+1 upgraded, 7 newly installed, 4 to remove and 0 not upgraded.
+Need to get 30,7 MB of archives.
+After this operation, 32,6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-common amd64 8.0.34-1ubuntu22.04 [67,7 kB]
+[33m0% [1 mysql-common 9 779 B/67,7 kB 14%][0m[33m                                         3% [Working][0m            Get:2 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-community-client amd64 8.0.34-1ubuntu22.04 [2 113 kB]
+[33m3% [2 mysql-community-client 4 057 B/2 113 kB 0%][0m[33m                                                     11% [Waiting for headers][0m                         Get:3 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-community-client-plugins amd64 8.0.34-1ubuntu22.04 [1 435 kB]
+[33m11% [3 mysql-community-client-plugins 40,3 kB/1 435 kB 3%][0m[33m                                                            17% [Waiting for headers][0m                         Get:4 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-community-client-core amd64 8.0.34-1ubuntu22.04 [2 087 kB]
+[33m17% [4 mysql-community-client-core 15,5 kB/2 087 kB 1%][0m[33m                                                         25% [Waiting for headers][0m                         Get:5 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-client amd64 8.0.34-1ubuntu22.04 [66,4 kB]
+[33m25% [5 mysql-client 8 339 B/66,4 kB 13%][0m[33m                                          28% [Waiting for headers][0m                         Get:6 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-community-server-core amd64 8.0.34-1ubuntu22.04 [24,8 MB]
+[33m28% [6 mysql-community-server-core 4 036 B/24,8 MB 0%][0m[33m42% [6 mysql-community-server-core 5 591 kB/24,8 MB 23%][0m[33m                                                          57% [6 mysql-community-server-core 11,3 MB/24,8 MB 45%][0m[33m71% [6 mysql-community-server-core 16,8 MB/24,8 MB 68%][0m[33m86% [6 mysql-community-server-core 22,3 MB/24,8 MB 90%][0m[33m                                                       95% [Waiting for headers][0m                         Get:7 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-community-server amd64 8.0.34-1ubuntu22.04 [78,2 kB]
+[33m95% [7 mysql-community-server 55,2 kB/78,2 kB 71%][0m[33m                                                  97% [Waiting for headers][0m                         Get:8 http://repo.mysql.com/apt/ubuntu jammy/mysql-8.0 amd64 mysql-server amd64 8.0.34-1ubuntu22.04 [66,4 kB]
+[33m97% [8 mysql-server 36,9 kB/66,4 kB 56%][0m[33m                                        100% [Working][0m              Fetched 30,7 MB in 3s (9 429 kB/s)
+Preconfiguring packages ...
+[?1049h[22;0;0t[1;50r[4l[?25l(B[m[37m[40m[1;50r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[16;2H[30m[47m┌────────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring mysql-community-server[30m ├────────────────────────────────────────────────────────────────────────────────┐[17;2H│ MySQL 8 uses a new authentication based on improved SHA256-based password methods. It is recommended that all new MySQL Server installations use this method going forward. This new authentication  │[97m[40m [18;2H[30m[47m│ plugin requires new versions of connectors and clients, with support for this new authentication method (caching_sha2_password). Currently MySQL 8 Connectors and community drivers built with       │[97m[40m [19;2H[30m[47m│ libmysqlclient21 support this new method. Clients built with older versions of libmysqlclient may not be able to connect to the new server.                                                          │[97m[40m [20;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [21;2H[30m[47m│ To retain compatibility with older client software, the default authentication plugin can be set to the legacy value (mysql_native_password) This should only be done if required third-party        │[97m[40m [22;2H[30m[47m│ software has not been updated to work with the new authentication method. The change will be written to the file /etc/mysql/mysql.conf.d/default-auth-override.cnf                                   │[97m[40m [23;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [24;2H[30m[47m│ After installation, the default can be changed by setting the default_authentication_plugin server setting.                                                                                          │[97m[40m [25;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [26;2H[30m[47m│ Select default authentication plugin                                                                                                                                                                 │[97m[40m [27;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [28;2H[30m[47m│                                                                  [37m[41mUse Strong Password Encryption (RECOMMENDED)                      [30m[47m                                                                  │[97m[40m [29;2H[30m[47m│                                                                  Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)                                                                   │[97m[40m [30;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [31;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [32;2H[30m[47m│                                                                                                <Ok>                                                                                                  │[97m[40m [33;2H[30m[47m│                                                                                                                                                                                                      │[97m[40m [34;2H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [35;3H                                                                                                                                                                                                        [28;69H[?12l[?25h[50;1H[37m(B[m[39;49m[K[?1049l[23;0;0t
+7[0;49r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 257060 files and directories currently installed.)
+Removing mysql-server-8.0 (8.0.34-0ubuntu0.22.04.1) ...
+7[50;0f[42m[30mProgress: [  0%][49m[39m [.....................................................................................................................................................................................] 87[50;0f[42m[30mProgress: [  2%][49m[39m [####.................................................................................................................................................................................] 87[50;0f[42m[30mProgress: [  5%][49m[39m [########.............................................................................................................................................................................] 8update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Removing mysql-server-core-8.0 (8.0.34-0ubuntu0.22.04.1) ...
+7[50;0f[42m[30mProgress: [  7%][49m[39m [#############........................................................................................................................................................................] 87[50;0f[42m[30mProgress: [ 10%][49m[39m [#################....................................................................................................................................................................] 8[1mdpkg:[0m mysql-client-core-8.0: dependency problems, but removing anyway as you requested:
+ mysql-client-8.0 depends on mysql-client-core-8.0.
+
+Removing mysql-client-core-8.0 (8.0.34-0ubuntu0.22.04.1) ...
+7[50;0f[42m[30mProgress: [ 12%][49m[39m [######################...............................................................................................................................................................] 87[50;0f[42m[30mProgress: [ 15%][49m[39m [##########################...........................................................................................................................................................] 8[1mdpkg:[0m mysql-client-8.0: dependency problems, but removing anyway as you requested:
+ dbconfig-mysql depends on default-mysql-client | virtual-mysql-client; however:
+  Package default-mysql-client is not installed.
+  Package virtual-mysql-client is not installed.
+  Package mysql-client-8.0 which provides virtual-mysql-client is to be removed.
+
+Removing mysql-client-8.0 (8.0.34-0ubuntu0.22.04.1) ...
+7[50;0f[42m[30mProgress: [ 17%][49m[39m [##############################.......................................................................................................................................................] 87[50;0f[42m[30mProgress: [ 20%][49m[39m [###################################..................................................................................................................................................] 8(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 256857 files and directories currently installed.)
+Preparing to unpack .../0-mysql-common_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 22%][49m[39m [#######################################..............................................................................................................................................] 8Unpacking mysql-common (8.0.34-1ubuntu22.04) over (5.8+1.0.8) ...
+7[50;0f[42m[30mProgress: [ 24%][49m[39m [############################################.........................................................................................................................................] 8Selecting previously unselected package mysql-community-client.
+Preparing to unpack .../1-mysql-community-client_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 27%][49m[39m [################################################.....................................................................................................................................] 8Unpacking mysql-community-client (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 29%][49m[39m [####################################################.................................................................................................................................] 8Selecting previously unselected package mysql-community-client-plugins.
+Preparing to unpack .../2-mysql-community-client-plugins_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 32%][49m[39m [#########################################################............................................................................................................................] 8Unpacking mysql-community-client-plugins (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 34%][49m[39m [#############################################################........................................................................................................................] 8Selecting previously unselected package mysql-community-client-core.
+Preparing to unpack .../3-mysql-community-client-core_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 37%][49m[39m [##################################################################...................................................................................................................] 8Unpacking mysql-community-client-core (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 39%][49m[39m [######################################################################...............................................................................................................] 8Selecting previously unselected package mysql-client.
+Preparing to unpack .../4-mysql-client_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 41%][49m[39m [###########################################################################..........................................................................................................] 8Unpacking mysql-client (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 44%][49m[39m [###############################################################################......................................................................................................] 8Selecting previously unselected package mysql-community-server-core.
+Preparing to unpack .../5-mysql-community-server-core_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 46%][49m[39m [###################################################################################..................................................................................................] 8Unpacking mysql-community-server-core (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 49%][49m[39m [########################################################################################.............................................................................................] 8Selecting previously unselected package mysql-community-server.
+Preparing to unpack .../6-mysql-community-server_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 51%][49m[39m [############################################################################################.........................................................................................] 8Unpacking mysql-community-server (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 54%][49m[39m [#################################################################################################....................................................................................] 8Selecting previously unselected package mysql-server.
+Preparing to unpack .../7-mysql-server_8.0.34-1ubuntu22.04_amd64.deb ...
+7[50;0f[42m[30mProgress: [ 56%][49m[39m [#####################################################################################################................................................................................] 8Unpacking mysql-server (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 59%][49m[39m [#########################################################################################################............................................................................] 8Setting up mysql-common (8.0.34-1ubuntu22.04) ...
+Installing new version of config file /etc/mysql/conf.d/mysql.cnf ...
+Installing new version of config file /etc/mysql/my.cnf.fallback ...
+7[50;0f[42m[30mProgress: [ 61%][49m[39m [##############################################################################################################.......................................................................] 87[50;0f[42m[30mProgress: [ 63%][49m[39m [##################################################################################################################...................................................................] 8Setting up mysql-community-server-core (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 66%][49m[39m [#######################################################################################################################..............................................................] 87[50;0f[42m[30mProgress: [ 68%][49m[39m [###########################################################################################################################..........................................................] 8Setting up mysql-community-client-plugins (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 71%][49m[39m [################################################################################################################################.....................................................] 87[50;0f[42m[30mProgress: [ 73%][49m[39m [####################################################################################################################################.................................................] 8Setting up mysql-community-client-core (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 76%][49m[39m [########################################################################################################################################.............................................] 87[50;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################################################################################################........................................] 8Setting up mysql-community-client (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################################################################################################....................................] 87[50;0f[42m[30mProgress: [ 83%][49m[39m [######################################################################################################################################################...............................] 8Setting up mysql-client (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 85%][49m[39m [##########################################################################################################################################################...........................] 87[50;0f[42m[30mProgress: [ 88%][49m[39m [##############################################################################################################################################################.......................] 8Setting up mysql-community-server (8.0.34-1ubuntu22.04) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.mysqld ...
+Installing new version of config file /etc/mysql/mysql.cnf ...
+Installing new version of config file /etc/mysql/mysql.conf.d/mysqld.cnf ...
+7[50;0f[42m[30mProgress: [ 90%][49m[39m [###################################################################################################################################################################..................] 8update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+7[50;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################################################################################################################################..............] 8Setting up mysql-server (8.0.34-1ubuntu22.04) ...
+7[50;0f[42m[30mProgress: [ 95%][49m[39m [############################################################################################################################################################################.........] 87[50;0f[42m[30mProgress: [ 98%][49m[39m [################################################################################################################################################################################.....] 8Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+
+7[0;50r8[1A[J[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [7msystemctl status mysql[27msystemctl status mysql
+[?2004l[?1h=[0;1;32m●[0m mysql.service - MySQL Community Server[m
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;32mactive (running)[0m since Wed 2023-09-27 15:30:25 MSK; 4min 26s ago[m
+       Docs: man:mysqld(8)[m
+             http://dev.mysql.com/doc/refman/en/using-systemd.html[m
+   Main PID: 31345 (mysqld)[m
+     Status: "Server is operational"[m
+      Tasks: 37 (limit: 3967)[m
+     Memory: 384.5M[m
+        CPU: 2.167s[m
+     CGroup: /system.slice/mysql.service[m
+             └─31345 /usr/sbin/mysqld[m
+[m
+сен 27 15:30:24 ubuntu-vm systemd[1]: Starting MySQL Community Server...[m
+сен 27 15:30:25 ubuntu-vm systemd[1]: Started MySQL Community Server.[m
+[K[?1l>[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# [K]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# wget [7mhttp://ftp.ru.debian.org/debian/pool/main/f/freesweep/freesweep_1.0.2-1_amd64.deb[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttp://ftp.ru.debian.org/debian/pool/main/f/freesweep/freesweep_1.0.2-1_amd64.deb
+[?2004l--2023-09-27 15:46:40--  http://ftp.ru.debian.org/debian/pool/main/f/freesweep/freesweep_1.0.2-1_amd64.deb
+Resolving ftp.ru.debian.org (ftp.ru.debian.org)... 85.143.112.112
+Connecting to ftp.ru.debian.org (ftp.ru.debian.org)|85.143.112.112|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55776 (54K) [application/octet-stream]
+Saving to: ‘freesweep_1.0.2-1_amd64.deb’
+
+freesweep_1.0.2-1_amd64.deb                          0%[                                                                                                                ]       0  --.-KB/s               freesweep_1.0.2-1_amd64.deb                        100%[===============================================================================================================>]  54,47K  --.-KB/s    in 0,05s   
+
+2023-09-27 15:46:40 (1,13 MB/s) - ‘freesweep_1.0.2-1_amd64.deb’ saved [55776/55776]
+
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# dpkg -i fr[Kree[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004l[0m[01;31mfreesweep_1.0.2-1_amd64.deb[0m  friends_to_human.txt  [01;31mmysql-apt-config_0.8.26-1_all.deb[0m
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# dpkg freesweep_1.0.2-1_amd64.deb [C[1@ [1@-[1@i
+[?2004lSelecting previously unselected package freesweep.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 257130 files and directories currently installed.)
+Preparing to unpack freesweep_1.0.2-1_amd64.deb ...
+Unpacking freesweep (1.0.2-1) ...
+Setting up freesweep (1.0.2-1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# free[K[K[K[Kfreesweep --help
+[?2004lFreesweep v1.0.1 by
+Gus Hartmann (hartmann@cs.wisc.edu) and Pete Keller (psilord@cs.wisc.edu).
+Freesweep comes with ABSOLUTELY NO WARRANTY; see the file COPYING for more info.
+[?1049h[22;0;0t[1;50r(B[m[4l[?7h[39;49m[?1h=[?1006;1000h[39;49m[37m[40m[H[2JEnter the grid height [10]:   10 1[2dEnter the grid width [10]:   12[3dEnter the number or percentage of mines [20%]:   20[4dUse the PC linedraw character set? [y/N]: Yes[5dUse FastStart mode for new games? [y/N]: Yes[6dUse Beep/Flash/No alert? [B/f/n]: None[7dUse Color if available? [Y/n]: Yes[8dSave these preferences? [Y/n]: No[50d[39;49m[37m[40m[H[2J[1;183H(0[0m[39;49m[37m[40mlq[18bk(B[39;49m[37m[40m[2;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -=- FreeSweep -=- (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[3;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m by Gus! & Psilord (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[4;183H(0[0m[39;49m[37m[40mxq[18bx(B[39;49m[37m[40m[5;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m Hit '?' for help  (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[6;183H(0[0m[39;49m[37m[40mmq[18bj(B[39;49m[37m[40m[7;183H(0[0m[39;49m[37m[40mlq[18bk(B[39;49m[37m[40m[8;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mTime: 0s[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[9;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mLoc: 6, 5[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[10;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mMines: 20[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[11;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mMarks: 0[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[12;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mPercentage: 0.00%  (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[13;183H(0[0m[39;49m[37m[40mmq[18bj(B[39;49m[37m[40m[47;81H(0[0m[39;49m[37m[40mlq[39bk(B[39;49m[37m[40m[48;81H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[48;122H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[49;81H(0[0m[39;49m[37m[40mmq[39bj(B[39;49m[37m[40m[H(0[0m[39;49m[37m[40m(B[39;49m[37m[40m(0[0m[39;49m[37m[40mlq[35bk(B[39;49m[37m[40m[2d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[3d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[4d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[5d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[6d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[7d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  - <-> -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[8d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[9d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[10d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[11d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[12d(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[13d(0[0m[39;49m[37m[40mmq[35bj(B[39;49m[37m[40m[2;2H(0[0m[39;49m[37m[40m(B[39;49m[37m[40m[7;20H - <->[8;190H2[9d7[2;2H[7;20H<-> - [9;189H6[2;2H[7;17H<-> - [8;190H3[9d5[2;2H[7;14H<-> - [9;189H4[2;2H[48;82HBad Input.[2;2H[6;14H<->[7;14H - [8;190H5[9d 4[48;82H [9b[2;2H[6;14H - [7;14H<->[8;190H6[9d 5[2;2H[39;49m[37m[40m[H[2J(0[0m[39;49m[37m[40m`[201b`(B[39;49m[37m[40m[2;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m Time out - Freesweep Help[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[3;1H(0[0m[39;49m[37m[40m`q[200b`(B[39;49m[37m[40m[4;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m Useful Keys:[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[5;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40mArrow keys and vi-style movement keys move the cursor.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[6;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40mThe space bar exposes a square.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[7;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'f' flags a space as a mine.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[8;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'r' redraws the screen.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'0' moves the cursor to the upper left corner.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[10;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'$' moves the cursor to the lower right corner.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[11;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'c' centers the cursor.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[12;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'.' repeats the last command.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[13;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'a' toggles the character set.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[14;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'b' toggles the color settings.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[15;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'?' displays this help screen.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[16;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'g' displays the GNU General Public License.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[17;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[9G(0[0m[39;49m[37m[40m(B[39;49m[37m[40m'n' starts a new game.[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[18;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[19;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[20;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[21;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[22;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[23;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[24;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[25;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[26;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[27;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[28;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[29;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[30;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[31;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[32;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[33;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[34;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[35;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[36;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[37;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[38;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[39;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[40;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[41;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[42;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[43;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[44;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[45;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[46;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[47;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[48;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[49;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[203G(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m[50;1H(0[0m[39;49m[37m[40m`(B[39;49m[37m[40m--Press 'q' to quit, or any other key to continue.--(0[0m[39;49m[37m[40m`[148b[?7l`[?7h(B[39;49m[37m[40m[H(0[0m[39;49m[37m[40m(B[39;49m[37m[40m[?1l>[39;49m[37m[40m[H[2J(0[0m[39;49m[37m[40mlq[35bk(B[39;49m[37m[40m[1;183H(0[0m[39;49m[37m[40mlq[18bk(B[39;49m[37m[40m[2;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[2;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -=- FreeSweep -=- (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[3;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[3;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m by Gus! & Psilord (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[4;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[4;183H(0[0m[39;49m[37m[40mxq[18bx(B[39;49m[37m[40m[5;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[5;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m Hit '?' for help  (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[6;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[6;183H(0[0m[39;49m[37m[40mmq[18bj(B[39;49m[37m[40m[7;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  - <-> -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[7;183H(0[0m[39;49m[37m[40mlq[18bk(B[39;49m[37m[40m[8;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[8;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mTime: 9s[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[9;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[9;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mLoc: 4, 5[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[10;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[10;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mMines: 20[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[11;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[11;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mMarks: 0[203G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[12;1H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m -  -  -  -  -  -  -  -  -  -  -  - (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[12;183H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40mPercentage: 0.00%  (0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[13;1H(0[0m[39;49m[37m[40mmq[35bj(B[39;49m[37m[40m[13;183H(0[0m[39;49m[37m[40mmq[18bj(B[39;49m[37m[40m[47;81H(0[0m[39;49m[37m[40mlq[39bk(B[39;49m[37m[40m[48;81H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[48;122H(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[49;81H(0[0m[39;49m[37m[40mmq[39bj(B[39;49m[37m[40m[2;2H(0[0m[39;49m[37m[40m(B[39;49m[37m[40m[?1h=[7;14H - [8;14H<->[8;190H10s[9d6[2;2H[7;14H<->[8;14H - [9;192H5[2;2H[4;15H[36m[40m2(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [36m[40m2[5;3H[34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [6;3H (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [7;3H[34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m <[37m[40m (B[m[39;49m[37m[40m> [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [8;6H[36m[40m2(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [8;191H(B[m[39;49m[37m[40m1[9;15H[34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [10;15H[34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [11;15H[34m[40m1(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [32m[40m3(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [36m[40m2(B[m[39;49m[37m[40m  [34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [12;27H[34m[40m1(B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m (B[m[39;49m[37m[40m  [37m[40m [2;2H(B[m[39;49m[37m[40m[7;11H[37m[40m< >   [8;191H(B[m[39;49m[37m[40m2[9;189H3[2;2H[6;11H[37m[40m< >[7;11H   [8;191H(B[m[39;49m[37m[40m3[9d4[2;2H[5;11H[37m[40m<[34m[40m1[37m[40m>[6;11H   [9;192H(B[m[39;49m[37m[40m3[2;2H[4;11H[37m[40m<->[5;11H [34m[40m1[37m[40m [8;191H(B[m[39;49m[37m[40m4[9d2[2;2H[4;12H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m1[12;196H5[2;2H[4;11H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [5;11H<[34m[40m1[37m[40m>[9;192H(B[m[39;49m[37m[40m3[2;2H[5;11H[37m[40m [34m[40m1[37m[40m <[34m[40m1[37m[40m>[8;191H(B[m[39;49m[37m[40m7[9;189H4[2;2H[5;14H[37m[40m [34m[40m1[37m[40m < >[8;191H(B[m[39;49m[37m[40m8[9;189H5[2;2H[5;17H[37m[40m   < >[9;189H(B[m[39;49m[37m[40m6[2;2H[5;20H[37m[40m   < >[9;189H(B[m[39;49m[37m[40m7[2;2H[4;23H[37m[40m<[36m[40m2[37m[40m>[5;23H   [8;191H(B[m[39;49m[37m[40m9[9d2[2;2H[3;23H[37m[40m<->[4;23H [36m[40m2[37m[40m [9;192H(B[m[39;49m[37m[40m1[2;2H[3;20H[37m[40m<-> - [8;190H(B[m[39;49m[37m[40m20[9;189H6[2;2H[3;21H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m2[12;196H10.00%[2;2H[3;20H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <->[9;189H(B[m[39;49m[37m[40m7[2;2H[3;23H[37m[40m - <->[9;189H(B[m[39;49m[37m[40m8[2;2H[3;26H[37m[40m - <->[9;189H(B[m[39;49m[37m[40m9[2;2H[3;26H[37m[40m<-> - [8;191H(B[m[39;49m[37m[40m1[9;189H8[2;2H[3;27H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m3[12;197H5[2;2H[3;26H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <->[8;191H(B[m[39;49m[37m[40m2[9;189H9[2;2H[3;30H[35m[40m4[8;191H(B[m[39;49m[37m[40m4[2;2H[3;26H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [35m[40m4[37m[40m [9;189H(B[m[39;49m[37m[40m8[2;2H[3;23H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [8;191H(B[m[39;49m[37m[40m5[9;189H7[2;2H[3;24H[35m[40m4[A[C(B[m[39;49m[37m[40m[3;23H[37m[40m [35m[40m4[37m[40m [4;23H<[36m[40m2[37m[40m>[8;191H(B[m[39;49m[37m[40m6[9d2[2;2H[4;23H[37m[40m [36m[40m2[37m[40m <[34m[40m1[37m[40m>[9;189H(B[m[39;49m[37m[40m8[2;2H[4;26H[37m[40m [34m[40m1[37m[40m <[36m[40m2[37m[40m>[8;191H(B[m[39;49m[37m[40m7[9;189H9[2;2H[4;29H[37m[40m [36m[40m2[37m[40m <[36m[40m2[37m[40m>[8;191H(B[m[39;49m[37m[40m8[9;189H10, 2[2;2H[3;32H[37m[40m<->[4;32H [36m[40m2[37m[40m [8;191H(B[m[39;49m[37m[40m9[9d 1[2;2H[3;33H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m4[12;196H20[2;2H[3;32H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <->[8;190H(B[m[39;49m[37m[40m30[9d1[2;2H[3;36H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m5[12;197H5[2;2H[3;32H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [9;190H(B[m[39;49m[37m[40m0[2;2H[3;29H[37m[40m<[35m[40m4[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;191H(B[m[39;49m[37m[40m2[9;189H9, 1 [2;2H[3;26H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [35m[40m4[37m[40m [9;189H(B[m[39;49m[37m[40m8[2;2H[3;23H[37m[40m<[35m[40m4[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m7[2;2H[3;23H[37m[40m [35m[40m4[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[8;191H(B[m[39;49m[37m[40m3[9;189H8[2;2H[2;26H[37m[40m<->[3;26H (0[0m[37m[40m`(B[0m[37m[40m [9;192H(B[m[39;49m[37m[40m0[2;2H[2;23H[37m[40m<-> - [8;191H(B[m[39;49m[37m[40m4[9;189H7[2;2H[2;20H[37m[40m<-> - [9;189H(B[m[39;49m[37m[40m6[2;2H[2;20H[37m[40m - [3;20H<(0[0m[37m[40m`(B[0m[37m[40m>[9;192H(B[m[39;49m[37m[40m1[2;2H[3;17H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [8;191H(B[m[39;49m[37m[40m5[9;189H5[2;2H[3;18H[32m[40m3[A[C(B[m[39;49m[37m[40m[3;14H[37m[40m<-> [32m[40m3[37m[40m [8;191H(B[m[39;49m[37m[40m6[9;189H4[2;2H[3;15H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[8;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m7[11d6[12;196H30[2;2H[3;11H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m3[2;2H[3;12H[36m[40m2[8;191H(B[m[39;49m[37m[40m9[2;2H[2;11H[37m[40m<->[3;11H [36m[40m2[37m[40m [8;190H(B[m[39;49m[37m[40m41[9d0[2;2H[2;12H[34m[40m1[C(B[m[39;49m[37m[40m[2;11H[37m[40m [34m[40m1[37m[40m <->[9;189H(B[m[39;49m[37m[40m4[2;2H[2;15H[34m[40m1[C(B[m[39;49m[37m[40m[2;14H[37m[40m [34m[40m1[37m[40m <->[8;191H(B[m[39;49m[37m[40m2[9;189H5[2;2H[2;18H[32m[40m3[C(B[m[39;49m[37m[40m[2;17H[37m[40m [32m[40m3[37m[40m <->[8;191H(B[m[39;49m[37m[40m3[9;189H6[2;2H[2;21H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[8;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m4[11d7[12;197H5[2;2H[2;20H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [3;20H<(0[0m[37m[40m`(B[0m[37m[40m>[9;192H(B[m[39;49m[37m[40m1[2;2H[3;17H[37m[40m<[32m[40m3[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;191H(B[m[39;49m[37m[40m5[9;189H5[2;2H[3;14H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [32m[40m3[37m[40m [9;189H(B[m[39;49m[37m[40m4[2;2H[3;11H[37m[40m<[36m[40m2[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m3[2;2H[3;8H[37m[40m<-> [36m[40m2[37m[40m [8;191H(B[m[39;49m[37m[40m6[9;189H2[2;2H[3;9H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[8;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m7[11d8[12;196H40[2;2H[8G[37m[40m<->[3;8H (0[0m[37m[40m`(B[0m[37m[40m [9;192H(B[m[39;49m[37m[40m0[2;2H[8G[37m[40m - [3;8H<(0[0m[37m[40m`(B[0m[37m[40m>[8;191H(B[m[39;49m[37m[40m8[9d1[2;2H[3;9H[37m[40m-[11;191H(B[m[39;49m[37m[40m7[12;196H35[2;2H[3;9H[36m[40m2[A[C(B[m[39;49m[37m[40m[8G[37m[40m<->[3;8H [36m[40m2[37m[40m [8;191H(B[m[39;49m[37m[40m9[9d0[2;2H[6G[34m[40m1(B[m[39;49m[37m[40m [37m[40m< [3;6H[36m[40m2[8;190H(B[m[39;49m[37m[40m50[2;2H[8G[37m[40m   [3;8H<[36m[40m2[37m[40m>[9;192H(B[m[39;49m[37m[40m1[2;2H[3;8H[37m[40m [36m[40m2[37m[40m [4;8H<->[8;191H(B[m[39;49m[37m[40m1[9d2[2;2H[4;9H[36m[40m2[8;191H(B[m[39;49m[37m[40m2[2;2H[4;5H[37m[40m<-> [36m[40m2[37m[40m [8;191H(B[m[39;49m[37m[40m3[9;189H1[2;2H[4;6H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m8[12;196H40[2;2H[4d[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [8;191H(B[m[39;49m[37m[40m5[9;189H0[2;2H[4;3H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m9[12;197H5[2;2H[4;3H[37m[40m-[11;191H(B[m[39;49m[37m[40m8[12;197H0[2;2H[4;3H[36m[40m2[2d(B[m[39;49m[37m[40m[3d[37m[40m<->[4;2H [36m[40m2[37m[40m [8;191H(B[m[39;49m[37m[40m6[9d1[2;2H[3;3H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m9[12;197H5[2;2H[37m[40m<->[3;2H (0[0m[37m[40m`(B[0m[37m[40m [9;192H(B[m[39;49m[37m[40m0[2;2H[C[34m[40m1(B[m[39;49m[37m[40m[37m[40m [34m[40m1[37m[40m <[34m[40m1[37m[40m>[8;191H(B[m[39;49m[37m[40m7[9;189H1[2;2H[5G[37m[40m [34m[40m1[37m[40m [3;5H<[36m[40m2[37m[40m>[9;192H(B[m[39;49m[37m[40m1[2;2H[3;5H[37m[40m [36m[40m2[37m[40m <[36m[40m2[37m[40m>[9;189H(B[m[39;49m[37m[40m2[2;2H[3;8H[37m[40m [36m[40m2[37m[40m <[36m[40m2[37m[40m>[8;191H(B[m[39;49m[37m[40m8[9;189H3[2;2H[3;11H[37m[40m [36m[40m2[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m4[2;2H[3;14H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[32m[40m3[37m[40m>[9;189H(B[m[39;49m[37m[40m5[2;2H[3;17H[37m[40m [32m[40m3[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m6[2;2H[3;20H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[35m[40m4[37m[40m>[9;189H(B[m[39;49m[37m[40m7[2;2H[3;23H[37m[40m [35m[40m4[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m8[2;2H[3;26H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[35m[40m4[37m[40m>[9;189H(B[m[39;49m[37m[40m9[2;2H[3;26H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [35m[40m4[37m[40m [8;191H(B[m[39;49m[37m[40m9[9;189H8[2;2H[3;23H[37m[40m<[35m[40m4[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;190H(B[m[39;49m[37m[40m1:00s[9;189H7[2;2H[3;20H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [35m[40m4[37m[40m [8;193H(B[m[39;49m[37m[40m1[9;189H6[2;2H[3;20H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[35m[40m4[37m[40m>[9;189H(B[m[39;49m[37m[40m7[2;2H[3;23H[37m[40m [35m[40m4[37m[40m [4;23H<[36m[40m2[37m[40m>[8;193H(B[m[39;49m[37m[40m2[9d2[2;2H[4;23H[37m[40m [36m[40m2[37m[40m [5;23H< >[9;192H(B[m[39;49m[37m[40m3[2;2H[5;23H[37m[40m   [6;23H< >[9;192H(B[m[39;49m[37m[40m4[2;2H[6;23H[37m[40m   [7;23H< >[8;193H(B[m[39;49m[37m[40m3[9d5[2;2H[7;23H[37m[40m   [8;23H< >[9;192H(B[m[39;49m[37m[40m6[2;2H[8;23H[37m[40m   [9;23H<[34m[40m1[37m[40m>[9;192H(B[m[39;49m[37m[40m7[2;2H[9;23H[37m[40m [34m[40m1[37m[40m [9;192H(B[m[39;49m[37m[40m8[10;23H[37m[40m<[36m[40m2[37m[40m>[2;2H(B[m[39;49m[37m[40m[8;193H4[9;189H8[10;23H[37m[40m [36m[40m2[37m[40m <->[2;2H(B[m[39;49m[37m[40m[10;27H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m10[12;196H50[2;2H[9;192H9[10;26H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [11;26H<[36m[40m2[37m[40m>[2;2H(B[m[39;49m[37m[40m[8;193H5[9;189H7[11;23H[37m[40m<-> [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[11;24H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m1[12;197H5[2;2H[8;193H6[9d10[11;23H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [12;23H<->[2;2H(B[m[39;49m[37m[40m[12;24H[36m[40m2[2;2H(B[m[39;49m[37m[40m[8;193H7[9;189H6[12;20H[37m[40m<-> [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H8[11d2[12;21H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[196G(0[0m[37m[40m(B(B[m[39;49m[37m[40m60[2;2H[8;193H9[9;189H5[12;17H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [2;2H(B[m[39;49m[37m[40m[11;192H3[12;18H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[197G(0[0m[37m[40m(B(B[m[39;49m[37m[40m5[2;2H[9;189H4[12;14H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [2;2H(B[m[39;49m[37m[40m[9;192H9 [11;14H[37m[40m<[34m[40m1[37m[40m>[12;14H - [2;2H(B[m[39;49m[37m[40m[8;192H10[9d10[11;14H[37m[40m [34m[40m1[37m[40m [12;14H<->[2;2H(B[m[39;49m[37m[40m[12;15H[34m[40m1[2;2H(B[m[39;49m[37m[40m[8;193H1[9;189H3[12;11H[37m[40m<-> [34m[40m1[37m[40m [2;2H(B[m[39;49m[37m[40m[12;12H[34m[40m1[2;2H(B[m[39;49m[37m[40m[9;192H9 [11;11H[37m[40m<->[12;11H [34m[40m1[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H2[11;12H[34m[40m1[2;2H(B[m[39;49m[37m[40m[8;193H3[9d8[10;11H[37m[40m<->[11;11H [34m[40m1[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H4[10;12H[36m[40m2[2;2H(B[m[39;49m[37m[40m[9;11H[37m[40m<->[9;192H(B[m[39;49m[37m[40m7[10;11H[37m[40m [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H5[9;12H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m4[12;196H70[2;2H[9;8H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m2[2;2H[8;193H6[9;9H[34m[40m1[2;2H(B[m[39;49m[37m[40m[8;193H7[9;8H[37m[40m [34m[40m1[37m[40m [9;192H(B[m[39;49m[37m[40m8[10;8H[37m[40m<->[2;2H(B[m[39;49m[37m[40m[10;9H[36m[40m2[2;2H(B[m[39;49m[37m[40m[8;193H8[9;189H1[10;5H[37m[40m<-> [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[9;5H[37m[40m<->[9;192H(B[m[39;49m[37m[40m7[10;5H[37m[40m - [2;2H(B[m[39;49m[37m[40m[8;192H20[9;6H[36m[40m2[2;2H(B[m[39;49m[37m[40m[8;5H[37m[40m<[36m[40m2[37m[40m>[9;5H [36m[40m2[37m[40m [9;192H(B[m[39;49m[37m[40m6[2;2H[8d[37m[40m<-> [36m[40m2[37m[40m [8;193H(B[m[39;49m[37m[40m1[9;189H0[2;2H[8;3H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m5[12;197H5[2;2H[8d[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [9;2H<->[9;192H(B[m[39;49m[37m[40m7[2;2H[9;3H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m6[12;196H80[2;2H[9d[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [9;192H(B[m[39;49m[37m[40m8[10;2H[37m[40m<->[2;2H(B[m[39;49m[37m[40m[9;189H1[10;2H[37m[40m - <->[2;2H(B[m[39;49m[37m[40m[8;193H2[10;6H[36m[40m2[2;2H(B[m[39;49m[37m[40m[8;193H3[9;189H0[10;2H[37m[40m<-> [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H4[10;3H[34m[40m1[2d(B[m[39;49m[37m[40m[8;193H5[9d9[10;2H[37m[40m [34m[40m1[37m[40m [11;2H<->[2;2H(B[m[39;49m[37m[40m[11;3H[37m[40m >(B[m[39;49m[37m[40m [34m[40m1[12;3H[37m[40m (B[m[39;49m[37m[40m  [34m[40m1[2;2H(B[m[39;49m[37m[40m[8;193H6[9;189H1[11;2H[37m[40m   <[34m[40m1[37m[40m>[2;2H(B[m[39;49m[37m[40m[9;189H2[11;5H[37m[40m [34m[40m1[37m[40m <->[2;2H(B[m[39;49m[37m[40m[8;193H7[11;9H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m7[12;197H5[2;2H[9;192H10[11;8H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [12;8H<->[2;2H(B[m[39;49m[37m[40m[8;193H8[12;9H[34m[40m1[2;2H(B[m[39;49m[37m[40m[9;192H9 [11;8H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m>[12;8H [34m[40m1[37m[40m [2;2H(B[m[39;49m[37m[40m[8;193H9[9d8[10;8H[37m[40m<[36m[40m2[37m[40m>[11;8H (0[0m[37m[40m`(B[0m[37m[40m [2;2H(B[m[39;49m[37m[40m[9;8H[37m[40m<[34m[40m1[37m[40m>[9;192H(B[m[39;49m[37m[40m7[10;8H[37m[40m [36m[40m2[37m[40m [2;2H(B[m[39;49m[37m[40m[8;8H[37m[40m<[34m[40m1[37m[40m>[9;8H [34m[40m1[37m[40m [9;192H(B[m[39;49m[37m[40m6[2;2H[7;8H[37m[40m< >[8;8H [34m[40m1[37m[40m [9;192H(B[m[39;49m[37m[40m5[2;2H[6;8H[37m[40m< >[7;8H   [8;192H(B[m[39;49m[37m[40m30[9d4[2;2H[5;8H[37m[40m<[36m[40m2[37m[40m>[6;8H   [9;192H(B[m[39;49m[37m[40m3[2;2H[4;8H[37m[40m<[36m[40m2[37m[40m>[5;8H [36m[40m2[37m[40m [9;192H(B[m[39;49m[37m[40m2[2;2H[3;8H[37m[40m<[36m[40m2[37m[40m>[4;8H [36m[40m2[37m[40m [9;192H(B[m[39;49m[37m[40m1[2;2H[3;8H[37m[40m [36m[40m2[37m[40m <[36m[40m2[37m[40m>[8;193H(B[m[39;49m[37m[40m1[9;189H3[2;2H[3;11H[37m[40m [36m[40m2[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m4[2;2H[3;14H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[32m[40m3[37m[40m>[9;189H(B[m[39;49m[37m[40m5[2;2H[3;17H[37m[40m [32m[40m3[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m6[2;2H[3;20H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[35m[40m4[37m[40m>[9;189H(B[m[39;49m[37m[40m7[2;2H[3;23H[37m[40m [35m[40m4[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m8[2;2H[3;26H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <[35m[40m4[37m[40m>[9;189H(B[m[39;49m[37m[40m9[2;2H[3;29H[37m[40m [35m[40m4[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;189H(B[m[39;49m[37m[40m10, 1[2;2H[3;32H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <(0[0m[37m[40m`(B[0m[37m[40m>[9;190H(B[m[39;49m[37m[40m1[2;2H[3;32H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;193H(B[m[39;49m[37m[40m2[9;190H0[2;2H[3;29H[37m[40m<[35m[40m4[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m9, 1 [2;2H[3;26H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> [35m[40m4[37m[40m [8;193H(B[m[39;49m[37m[40m8[9;189H8[2;2H[3;23H[37m[40m<[35m[40m4[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;192H(B[m[39;49m[37m[40m42[9;189H7[2;2H[2;23H[37m[40m<->[3;23H [35m[40m4[37m[40m [8;193H(B[m[39;49m[37m[40m3[9d0[2;2H[2;24H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;192H(0[0m[37m[40m(B(B[m[39;49m[37m[40m8[12;196H90[2;2H[2;23H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <->[9;189H(B[m[39;49m[37m[40m8[2;2H[2;26H[37m[40m - <->[9;189H(B[m[39;49m[37m[40m9[2;2H[2;30H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[8;193H(0[0m[37m[40m(B(B[m[39;49m[37m[40m4[11d9[12;197H5[2;2H[2;29H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m <->[9;189H(B[m[39;49m[37m[40m10, 0[2;2H[2;33H(0[0m[37m[40m`(B(B[m[39;49m[37m[40m[11;191H(0[0m[37m[40m(B(B[m[39;49m[37m[40m20[12;196H100.00%[2;2H[2;32H[37m[40m (0[0m[37m[40m`(B[0m[37m[40m [3;32H<(0[0m[37m[40m`(B[0m[37m[40m>[9;193H(B[m[39;49m[37m[40m1[2;2H[2;32H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m>[3;32H (0[0m[37m[40m`(B[0m[37m[40m [8;193H(B[m[39;49m[37m[40m5[9d0[2;2H[2;29H[37m[40m<(0[0m[37m[40m`(B[0m[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m [8;193H(B[m[39;49m[37m[40m8[9;189H9, 0 [2;2H[2;26H[37m[40m<-> (0[0m[37m[40m`(B[0m[37m[40m [9;189H(B[m[39;49m[37m[40m8[2;2H[2;24H[37m[40mx <[31m[40m*[37m[40m> (0[0m[37m[40m`(B[0m[37m[40m  x (B[m[39;49m[37m[40m [37m[40mo[C(B[m[39;49m[37m[40m[?1l>[48;82HBOOM! Any key to continue, 'q' to quit.[2;2H[H[8;190H0s   [9;189H6, 5[11d0 [12;196H0.00%  [48;82H[39X[H[2;3H[37m[40m-  -  -  -  -  -  -  -  -  -  - (B[m[39;49m[37m[40m [37m[40m-[3;3H-  -  -  -  -  -  -  -  -  -  -  -[4;3H-  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  -  -  - (B[m[39;49m[37m[40m [37m[40m-[5;3H-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  -  -  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[6;3H-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[7;3H-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m [37m[40m<-> - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[8;3H-  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[9;3H-  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[10;3H-  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[11;3H-  -  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[12;3H-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m [37m[40m -  -  -  -  -  - (B[m[39;49m[37m[40m [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-(B[m[39;49m[37m[40m  [37m[40m-[2;2H(B[m[39;49m[37m[40m[?1h=[7;17H[37m[40m<-> - [9;189H(B[m[39;49m[37m[40m5[2;2H[39;49m[37m[40m[H[2J[?1006;1000l[39;49m[50d[K[50;1H[?1049l[23;0;0t[?1l>[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# dpkg _P[K[K-P freesweep_1.0.2-1_amd64.deb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 257140 files and directories currently installed.)
+Removing freesweep (1.0.2-1) ...
+Purging configuration files for freesweep (1.0.2-1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# dpkg -P freesweep[1Pfreesweep --help
+[?2004lbash: /usr/games/freesweep: No such file or directory
+[?2004h]0;root@ubuntu-vm: /home/ever/homeworks/animal_shelterroot@ubuntu-vm:/home/ever/homeworks/animal_shelter# history
+[?2004l    1  cat > info.php
+    2  exit
+    3  docker run hello-world
+    4  docker ps
+    5  docker ps -a
+    6  docker rm 4df97a5debe5
+    7  docker ps -a
+    8  docker search ubuntu
+    9  docker rmi hello-world
+   10  docker pull nginx
+   11  docker history nginx
+   12  ss -ntlp
+   13  systemctl stop apache2
+   14  iptables -L -nv
+   15  dcoker run -h
+   16  docker run -h
+   17  docker run -it ubuntu bash
+   18  docker run -d -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx-cont nginx
+   19  ps afx | grep nginx
+   20  ss -ntlp
+   21  dcoker ps
+   22  docker ps
+   23  ps afx -tail 10
+   24  ps afx | tail 10
+   25  ps afx | -tail 10
+   26  ps afx tail -10
+   27  ps aux tail -10
+   28  ps afx
+   29  ps afx | tail -5
+   30  docker exex -ti nginx-cont bash
+   31  docker exec -ti nginx-cont bash
+   32  docker logs nginx-cont
+   33  apt install docker-compose
+   34  apt install yamllint
+   35  cd docker/
+   36  cd ~
+   37  cd dcoker
+   38  cd docker
+   39  ls -al
+   40  cd ~
+   41  ll
+   42  cd home
+   43  history
+   44  exit
+   45  ip a
+   46  sudo ip netns ls
+   47  sudo ip netns del testNetns
+   48  sudo ip netns ls
+   49  ip a
+   50  exit
+   51  ip a
+   52  ls -l /proc/$$/ns
+   53  exit
+   54  top
+   55  ls -l /proc/$$/ns
+   56  exit
+   57  exit
+   58  dir
+   59  cd pgdata
+   60  dir
+   61  exit
+   62  docker build -t nginx-customrun .
+   63  echo $http_proxy
+   64  nano /etc/apt/sources.list.d/docker.list
+   65  apt update
+   66  dcoker build -t nginx-test1 . 
+   67  docker build -t nginx-test1 . 
+   68  docker rmi ubuntu:22.10
+   69  docker ps
+   70  docker ps -a
+   71  docker rm $(docker ps -aq)
+   72  docker builder prune -a
+   73  docker ps -a
+   74  ls
+   75  nano mdb-docker
+   76  pwd
+   77  nano mdb-docker
+   78  docker build -t mdb -n mdb-test1 mdb-docker 
+   79  docker build -t mdb-test1  mdb-docker 
+   80  mv mdb-docker mdb.Dockerfile
+   81  ls
+   82  docker build -t mdb-test1  -f mdb.Dockerfile 
+   83  docker build -t mdb-test1 .  -f mdb.Dockerfile 
+   84  docker ps -a
+   85  nano mdb.Dockerfile 
+   86  ls
+   87  nano Dockerfile 
+   88  docker build -t "ngnix-test" .
+   89  docker run -d -p 8083:80 ngnix-test
+   90  docker ps
+   91  ps
+   92  top
+   93  dokcer ps -a
+   94  docker ps -a
+   95  docker run -d -p 80:8090 ngnix-test
+   96  docker ps
+   97  nano Dockerfile 
+   98  docker rmi ngnix-test
+   99  docker rmi -h
+  100  docker rmi ngnix-test -f
+  101  nano Dockerfile 
+  102  docker build -t "nginx-test" .
+  103  docker run -d -p 8090:80 nginx-test
+  104  docker ps
+  105  docker ps -a
+  106  docker rm pedantic_dirac
+  107  docker rm vigilant_yalow
+  108  docker rm competent_antonelli
+  109  dokcer ps -a
+  110  docker ps -a
+  111  exit
+  112  cd homeworks/
+  113  cat > pets.txt
+  114  more pets.txt
+  115  cat > burden.txt
+  116  more burden.txt
+  117  cat pets.txt burden.txt > joined.txt
+  118  more joined.txt 
+  119  mv joined.txt friends_to_human.txt
+  120  more friends_to_human.txt 
+  121  mkdir animal_shelter
+  122  mv friends_to_human.txt ./animal_shelter/
+  123  cd animal_shelter/
+  124  ls
+  125  wget https://dev.mysql.com/downloads/file/?id=520541
+  126  rm index.html\?id\=520541 
+  127  ls
+  128  wget https://dev.mysql.com/get/Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb
+  129  rm mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb 
+  130  wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  131  dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+  132  sudo apt update
+  133  apt-cache policy mysql-server
+  134  systemctl status mysql
+  135  systemctl stop mysql 
+  136  systemctl status mysql
+  137  ls /etc/apt/preferences.d/
+  138  apt purge mysql-server -s
+  139  apt purge --autoremove mysql-server -s
+  140  apt purge --autoremove mysql-server
+  141  sudo apt update
+  142  apt-cache policy mysql-server
+  143  apr install mysql-server
+  144  apt install mysql-server
+  145  systemctl status mys
