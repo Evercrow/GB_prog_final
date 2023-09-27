@@ -307,5 +307,5 @@
             ) f;
             
     SELECT * from full_house;
-
+![результат SELECT](full_table.jpg)
 **[Скрипт](animals_db.sql) с командами SQL для быстрой проверки**
