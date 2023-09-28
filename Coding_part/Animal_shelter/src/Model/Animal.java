@@ -1,10 +1,23 @@
 package Model;
 
-public abstract class Animal {
-    private String topName;
-    private String groupName;
+import java.util.ArrayList;
 
-    protected Animal() {
-        topName = "Животное";
+public abstract class Animal {
+
+    public static final String SPLIT_REGEX = "[ ,]";
+    private String topName;
+    private String animalName;
+    private String birthDate;
+    private ArrayList<String> commands;
+
+    public Animal() {
+        this.topName = "Животное";
+    }
+
+    public Animal(String animalName,String birthDate, ArrayList<String> commands) {
+        this.animalName = animalName;
+        this.birthDate = birthDate;
+        this.commands = commands;
+        this.topName = "Животное";
     }
 }
