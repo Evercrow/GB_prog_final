@@ -52,4 +52,8 @@ public abstract class Animal {
     public void setCommands(String newCommand) {
         this.commands.add(newCommand);
     }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
 }

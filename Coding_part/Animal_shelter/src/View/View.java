@@ -58,8 +58,9 @@ public class View {
         System.out.println(a);
         System.out.println("1 - научить новым командам");
         System.out.println("2 - переименовать");
-        System.out.println("3 - удалить из реестра");
-        System.out.println("4 - назад");
+        System.out.println("3 - изменить дату рождения");
+        System.out.println("4 - удалить из реестра");
+        System.out.println("5 - назад");
     }
 
     public void wrongMenu(){
@@ -70,12 +71,12 @@ public class View {
         return Integer.parseInt(scan.nextLine()) ;
     }
 
-    public String getNewCommand(){
+    public String askNewCommand(){
         System.out.print("Введите новую команду: ");
         return scan.nextLine();
     }
 
-    public String getNewName(){
+    public String askNewName(){
         System.out.print("Введите новую кличку: ");
         return scan.nextLine();
     }
@@ -132,6 +133,11 @@ public class View {
 
     public void wrongId(int id){
         System.out.printf("Записи с id-номером %d нет в реестре%n",id);
+    }
+    
+    public String askBirthday(){
+        System.out.print("Введите дату рождения, день-месяц-год: ");
+        return scan.nextLine();
     }
 
 }

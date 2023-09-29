@@ -2,6 +2,6 @@ package Model.Services;
 
 public class AddException extends RuntimeException{
     public AddException() {
-        super("Такого класса нет в меню");
+        super("Класса такого вида еще нет в иерархии");
     }
 }

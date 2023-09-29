@@ -5,6 +5,7 @@ import Model.Services.*;
 
 import View.View;
 
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -17,11 +18,13 @@ public class Controller {
     private final Creator creator;
     private final View view;
     private final FileIO f;
+    private DataValidator dv;
 
     public Controller() {
         this.creator = new Creator();
         this.view = new View();
         this.f = new FileIO();
+        this.dv = new DataValidator();
         this.currentReg = (HashMap<Integer, Animal>) f.fileAnimals
                 .stream().collect(Collectors.toMap(Animal::getId, Function.identity()));
     }
@@ -62,19 +65,20 @@ public class Controller {
     }
 
     public boolean addAnimal(Counter c) throws CounterException{
+        int classChoice = view.classMenu();
+        ArrayList<String> animalData = new ArrayList<>(List.of(
+                view.newAnimalInput().split(" ", 3))) ;
         try
         {
-            int classChoice = view.classMenu();
-            ArrayList<String> animalData = new ArrayList<>(List.of(
-                                            view.newAnimalInput().split(" ", 3))) ;
             int Id = c.add(animalData.size()); //место возможного CounterException
             Animal a = creator.createAnimal(Id,classChoice, animalData);
             if(a != null){
                 currentReg.put(a.getId(),a);
                 return true;
             }
-        } catch(AddException e){
+        } catch(AddException | DateTimeParseException e){
             System.out.println( e.getMessage());
+            return false;
         }
         return false;
     }
@@ -93,15 +97,16 @@ public class Controller {
             view.showAnimalMenu(a);
             choice = view.menuChoice();
             switch (choice) {
-                case 1 -> a.setCommands(view.getNewCommand());
+                case 1 -> a.setCommands(view.askNewCommand());
                 case 2 -> {
-                    a.setAnimalName(view.getNewName());
+                    a.setAnimalName(view.askNewName());
                 }
-                case 3 -> {
+                case 3 -> a.setBirthDate(dv.formatDate(view.askBirthday()));
+                case 4 -> {
                     currentReg.remove(a.getId());
                     return true;
                 }
-                case 4 -> loop=false;
+                case 5 -> loop=false;
                 default -> view.wrongMenu();
             }
         }
