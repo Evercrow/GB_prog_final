@@ -1,7 +1,5 @@
 package Model;
 
-import View.View;
-
 import java.util.ArrayList;
 
 public abstract class Animal {
@@ -29,21 +27,6 @@ public abstract class Animal {
         return Id;
     }
 
-    public String getTopName() {
-        return topName;
-    }
-
-    public String getAnimalName() {
-        return animalName;
-    }
-
-    public String getBirthDate() {
-        return birthDate;
-    }
-
-    public ArrayList<String> getCommands() {
-        return commands;
-    }
 
     public void setAnimalName(String animalName) {
         this.animalName = animalName;

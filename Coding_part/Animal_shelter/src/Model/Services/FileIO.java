@@ -1,6 +1,7 @@
 package Model.Services;
 
 import Model.Animal;
+import View.View;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
@@ -21,15 +22,18 @@ public class FileIO {
 
     public List<Animal> fileAnimals;
 
+
     public FileIO(){
         this.fileAnimals = readFile(SAVED_REGISTRY);
     }
 
     public List<Animal> readFile(String filepath) {
         try {
-            return Converter.convert(
-                    Files.readAllLines(Paths.get(filepath)));
-
+            List<String> fileList = Files.readAllLines(Paths.get(filepath));
+            if (fileList.size()>0){
+                fileList.remove(0);
+            }
+            return Converter.convert(fileList);
         } catch(IOException e) {
             System.out.printf("Файл по пути %s не найден%n",filepath);
         }
@@ -40,6 +44,8 @@ public class FileIO {
         try(BufferedWriter wr = new BufferedWriter(
             new OutputStreamWriter(new FileOutputStream(SAVED_REGISTRY), StandardCharsets.UTF_8)))
         {
+                wr.write(View.TABLE_HEADER);
+                wr.newLine();
             for (Animal a: animalList){
                 wr.write(a.toString());
                 wr.newLine();
